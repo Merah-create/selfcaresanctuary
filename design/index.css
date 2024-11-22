@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    position: relative;
+    min-height: 100vh; 
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgb(4,9,30,0.7)), url(/images/sanctuary-min.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; 
+    padding: 0.5 rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; 
+    font-weight: 500;
+    margin: 0 0.5rem;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #E0A890; 
+    text-decoration: underline;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #000000; 
+}
+.navbar-brand{
+    color: #ffffff;
+}
+.navbar-brand:hover{
+    color: #E0A890;
+}
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.text-box{
+    text-align: center;
+    color: #ffffff;
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.intro-section {
+    background-color: #331E36; 
+    padding: 50px 15px; 
+    margin-top: 30px; 
+    text-align: center; 
+    border-radius: 10px; 
+}
+
+.intro-section h2 {
+    color: #E0A890;
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+}
+.intro-section p {
+    font-size: 1.2em; 
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0; 
+    text-align: center;
+    display: inline-block;
+    color:#E0A890;
+}
+
+@media (max-width: 768px) {
+    .intro-section h2 {
+        font-size: 2em; 
+    }
+
+    .intro-section p {
+        font-size: 1em; 
+    }
+}
+
+.welcome-section {
+    padding: 2rem 0;
+    margin-top: 30px;
+    text-align: center;
+    column-gap: normal;
+  }
+  
+.course-col {
+    background-color: #9F86C0; 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    border: 1px solid #9F86C0; 
+    box-shadow: 0 4px 8px rgba(152, 139, 142, 1); 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+.course-col:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(152, 139, 142, 1);
+}
+.course-col img{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+  
+.course-col h3 {
+    font-family: 'Roboto', sans-serif; 
+    color: #331E36; 
+    margin-bottom: 1rem; 
+}
+  
+.course-col p {
+    font-family: 'Roboto', sans-serif; 
+    color: #331E36;
+    line-height: 1.6; 
+}
+
+@media (max-width: 768px) {
+    .course-col {
+      margin-bottom: 2rem; 
+    }
+}
+footer{
+    background-color: #A0C1B9;
+    color: #331E36;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+} 

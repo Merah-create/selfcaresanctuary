@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+  
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+  
+.navbar-dark .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+  
+.navbar-dark .nav-link:hover {
+  color: #E0A890;
+  text-decoration: underline;
+}
+  
+.navbar-brand {
+  color: #ffffff;
+  font-weight: 600;
+}
+  
+.navbar-brand:hover {
+  color: #E0A890;
+}
+  
+.header {
+  padding-top: 100px;
+  background-color: #9F86C0;
+  color: #ffffff;
+}
+  
+.header h1 {
+  font-size: 2.5rem;
+}
+  
+.header p {
+  font-size: 1.2rem;
+}
+  
+.activity-section {
+  background-color: #F7F7F7;
+}
+  
+.activity-title {
+  color: #331E36;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+  
+.activity p {
+  color: #331E36;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+  
+footer {
+  background-color: #A0C1B9;
+  color: #331E36;
+}
+  
+@media (max-width: 768px) {
+  .header h1 {
+  font-size: 2rem;
+}
+  
+.activity-title {
+    font-size: 1.5rem;
+  }
+}
+  
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .activity-title {
+    font-size: 1.3rem;
+  }
+}  

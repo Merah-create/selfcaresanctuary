@@ -1,0 +1,132 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; 
+    padding: 0.5 rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; 
+    font-weight: 500;
+    margin: 0 0.5rem;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #E0A890; 
+    text-decoration: underline;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #000000; 
+}
+
+.navbar-brand {
+    color: #ffffff; 
+}
+
+.navbar-brand:hover {
+    color: #E0A890; 
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5; 
+    color: #333;
+}
+
+.about-header {
+    padding-top: 80px; 
+    padding-bottom: 50px;
+    background-color: #9F86C0; 
+    color: #ffffff; 
+
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-header p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.mission {
+    background-color: #F7F7F7;
+    padding: 50px 0;
+}
+
+.mission h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.mission ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.mission ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #A0C1B9;
+    color: #331E36;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    .about-header h1 {
+        font-size: 2rem;
+    }
+
+    .mission img {
+        margin-bottom: 20px;
+    }
+
+    .mission .col-md-6 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .about-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-header p {
+        font-size: 1rem;
+    }
+
+    .mission h3 {
+        font-size: 1.5rem;
+    }
+
+    .mission p {
+        font-size: 0.9rem;
+    }
+}

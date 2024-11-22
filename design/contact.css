@@ -1,0 +1,110 @@
+.navbar {
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; 
+    padding: 0.5 rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; 
+    font-weight: 500;
+    margin: 0 0.5rem;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #E0A890; 
+    text-decoration: underline;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #000000; 
+}
+.navbar-brand{
+    color: #ffffff;
+}
+.navbar-brand:hover{
+    color: #E0A890;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5; 
+    color: #333;
+}
+
+.contact-header {
+    background-image: linear-gradient(to bottom right, #9F86C0, #6D597A);
+    padding: 5rem 0;
+    color: #fff;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-header p {
+    font-size: 1.2rem;
+}
+
+.contact-form-section {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.75rem;
+}
+
+.contact-form-section .form-label {
+    font-weight: 500;
+}
+
+.contact-form-section button {
+    background-color: #9F86C0;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.contact-form-section button:hover {
+    background-color: #6D597A;
+}
+
+footer {
+    background-color: #A0C1B9;
+    color: #331E36;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+
+    .contact-form-section {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-header {
+        padding: 3rem 0;
+    }
+
+    .contact-header p {
+        font-size: 1rem;
+    }
+}
